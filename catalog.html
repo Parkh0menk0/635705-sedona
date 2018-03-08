@@ -7,23 +7,19 @@
 <body>
 	<header class="main-header">
 		<nav class="main-navigation">
-			<a class="main-header-logo" href="index.html">
-				<img src="http://placehold.it/150x100" alt="Логотип Sedona">
-			</a>
-			<ul class="site-navigation">
-				<li>
-					<a href="info.html">Информация</a>
-				</li>
-				<li>
-					<a href="photo-and-video.html">Фото и видео</a>
-				</li>
-				<li>
-					<a href="map.html">Карта штата</a>
-				</li>
-				<li class="site-navigation-current">
-					<a>Гостиницы</a>
-				</li>
-			</ul>
+			<div class="nav-left">
+				<a href="info.html">Информация</a>
+				<a href="photo-and-video.html">Фото и видео</a>
+			</div>
+			<div class="nav-center">
+				<a class="main-header-logo">
+					<img src="img/navigation-logo.png" width="138" height="70" alt="Sedona">
+				</a>
+			</div>
+			<div class="nav-right">
+				<a href="map.html">Карта штата</a>
+				<a href="catalog.html">Гостиницы</a>
+			</div>
 		</nav>
 	</header>
 	<main class="directory-contents">
@@ -123,19 +119,25 @@
 		</p>
 		<ul class="footer-social">
 			<li>
-				<a href="twitter.com">twitter</a>
+				<a href="twitter.com">
+					<img src="img/twitter.svg" width="46" height="48" alt="twitter">
+				</a>
 			</li>
 			<li>
-				<a href="youtube.com">youtube</a>
+				<a href="facebook.com">
+					<img src="img/facebook.svg" width="46" height="48" alt="facebook">
+				</a>
 			</li>
 			<li>
-				<a href="facebook.com">facebook</a>
+				<a href="youtube.com">
+					<img src="img/youtube.svg" width="46" height="48" alt="youtube">
+				</a>
 			</li>
 		</ul>
 		<p class="footer-copyright">
-			website by
+			<p>website by</p>
 			<a class="htmlacademy-logo" href="https://htmlacademy.ru/intensive/htmlcss">
-				<img src="http://placehold.it/150x100" alt="HTML Academy">
+				<img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTML Academy">
 			</a>
 		</p>
 	</footer>
