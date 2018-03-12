@@ -83,25 +83,29 @@
 		<section class="order">
 			<p>Заинтересовались?</p>
 			<p class="order-info">Укажите предпологаемые даты поездки,<br>и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
-			<form class="searching-form" action="https://echo.htmlacademy.ru" method="post">
+			<form class="search-form" action="https://echo.htmlacademy.ru" method="post">
 				<fieldset>Поиск гостиницы в Седоне</fieldset>
-				<p class="searching-item">
+				<p class="search-item">
 					<label for="check-in">Дата заезда:</label>
-					<input id="check-in" type="text" name="check-in" value="24 апреля 2017">
+					<input id="check-in" type="text" name="check-in" placeholder="24 апреля 2017">
 				</p>
-				<p class="searching-item">
+				<p class="search-item">
 					<label for="check-out">Дата выезда:</label>
-					<input id="check-out" type="text" name="check-out" value="4 июля 2017">
+					<input id="check-out" type="text" name="check-out" placeholder="4 июля 2017">
 				</p>
-				<p class="searching-item">
+				<p class="search-item">
 					<label for="adults">Взрослые:</label>
-					<input id="adults" type="number" name="adults" value="2" min="0" step="1">
+					<button class="decrease-button button" type="submit">-</button>
+					<input id="adults" type="text" name="adults" placeholder="2">
+					<button class="increase-button button" type="submit">+</button>
 				</p>
-				<p class="searching-item">
+				<p class="search-item">
 					<label for="children">Дети:</label>
-					<input id="children" type="number" name="children" value="0" min="0" step="1">
+					<button class="decrease-button button" type="submit">-</button>
+					<input id="children" type="text" name="children" placeholder="0">
+					<button class="increase-button button" type="submit">+</button>
 				</p>
-				<button class="searching-button button" type="submit">Найти</button>          
+				<button class="search-button button" type="submit">Найти</button>          
         	</form>
 		</section>
 		<footer class="main-footer">
