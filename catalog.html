@@ -30,7 +30,50 @@
 		<h1 class="visually-hidden">Поиск жилья в Седоне</h1>
 		<section class="filters">
 			<h2 class="visually-hidden">Фильтр поиска жилья</h2>
-			<!-- Здесь будет форма -->
+			<form class="filter" action="https://echo.htmlacademy.ru" method="get" oninput="output-f.value=from.value output-t.value=to.value">
+				<fieldset>
+					<legend>Инфраструктура:</legend>
+					<ul>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="swimming-pool" checked id="filter-swimming-pool">
+							<label for="filter-swimming-pool">Бассейн</label>
+						</li>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="parking" id="filter-parking">
+							<label for="filter-parking">Парковка</label>
+						</li>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="wi-fi" id="filter-wi-fi">
+							<label for="filter-wi-fi">Wi-Fi</label>
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Тип жилья:</legend>
+					<ul>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="hotel" checked id="filter-hotel">
+							<label for="filter-hotel">Гостинница</label>
+						</li>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="motel" checked id="filter-motel">
+							<label for="filter-motel">Мотель</label>
+						</li>
+						<li class="filter-option">
+							<input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="apartments" checked id="filter-apartments">
+							<label for="filter-apartments">Аппартаменты</label>
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Стоимость в сутки (р):</legend>
+					<output class="output-from" name="output-f">0</output>
+					<output class="output-to" name="output-t">3000</output>
+					<input type="range" name="from" class="input-from" min="0" step="1" value="0">
+					<input type="range" name="to" class="input-to" max="4000" step="1" value="3000">
+				</fieldset>
+				<button type="submit" class="filter-button button">Показать</button>
+			</form>
 		</section>
 		<section class="catalog">
 			<h2 class="visually-hidden">Список результатов поиска жилья</h2>
