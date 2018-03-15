@@ -1,7 +1,7 @@
 body {
 margin: 0;
 padding: 0;
-/*Обнулил отступы. Указал стили для базового шрифта, который встречается чаще всего в макете.*/
+/*Обнулил отступы. Указал стили для базового шрифта, который встречается чаще всего в макете*/
 font-family: "PT Sans", Arial, sans-serif;
 font-size: 14px;
 line-height: 24px;
@@ -10,7 +10,7 @@ color: #000000;
 text-transform: uppercase;
 /*Добавил фон для body. Указал цвет фона (если изображение не загрузится)*/
 background-color: #ffffff;
-background-image: url("img/bg.jpg");
+background-image: url("img/background.jpg");
 background-position: top center;
 background-repeat: no-repeat;
 }
