@@ -10,7 +10,7 @@ body {
 	background-color: #ffffff;
 }
 
-.main-header {
+.header-background {
 	background-image: url("../img/background.jpg");
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -25,4 +25,8 @@ a {
 	line-height: 26px;
 	color: #000000;
 	background-color: #ffffff;
+}
+
+.navigation {
+  list-style: none;
 }
