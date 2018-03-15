@@ -28,9 +28,14 @@ a {
 }
 
 .navigation {
-  list-style: none;
+	list-style: none;
 }
 
 .navigation a {
-  color: #000000;
+	color: #000000;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+	color: #766357;
 }
