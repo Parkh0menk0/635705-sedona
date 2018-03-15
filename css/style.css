@@ -30,3 +30,7 @@ a {
 .navigation {
   list-style: none;
 }
+
+.navigation a {
+  color: #000000;
+}
