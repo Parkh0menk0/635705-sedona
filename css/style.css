@@ -39,3 +39,8 @@ a {
 .navigation a:focus {
 	color: #766357;
 }
+
+.goods-and-services,
+.remaining-features {
+	list-style: none;
+}
