@@ -67,12 +67,12 @@ a {
   border: none;
 }
 
-.search-button {
+.brown-bottom.search-button {
   color: #ffffff;
   background-color: #766357;
 }
 
-.search-form .search-button {
+.blue-bottom.search-button {
   color: #ffffff;
   background-color: #81b3d2;
 }
@@ -139,4 +139,20 @@ a {
 .filter-background {
 	background-image: url(../img/background-filter.jpg);
 	background-repeat: no-repeat;
+}
+
+.filter {
+	color:#ffffff;
+}
+
+.filter-option,
+.sort-item,
+.selector-item,
+.view-and-book-item > li {
+	list-style: none;
+}
+
+.filter-button {
+	color: #ffffff;
+	background-color: transparent;
 }
