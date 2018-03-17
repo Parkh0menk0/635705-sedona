@@ -82,3 +82,12 @@ a {
 .button:active {
   background-color: #663d15;
 }
+
+.form-button {
+  background-color: #f2f2f2;	
+}
+
+.search-item input {
+  font: inherit;
+  background-color: #f2f2f2;
+}
