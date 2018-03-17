@@ -88,31 +88,33 @@
 			<p>Заинтересовались?</p>
 			<p class="order-info">Укажите предпологаемые даты поездки,<br>и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
 			<button class="search-button button" type="button">Поиск гостиницы в Седоне</button>
-			<form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-				<p class="search-item">
-					<label for="check-in">Дата заезда:</label>
-					<input id="check-in" type="text" name="check-in" placeholder="24 апреля 2017">
-					<button class="calendar-button form-button button" type="button">Календарь</button>
-				</p>
-				<p class="search-item">
-					<label for="check-out">Дата выезда:</label>
-					<input id="check-out" type="text" name="check-out" placeholder="4 июля 2017">
-					<button class="calendar-button form-button button" type="button">Календарь</button>
-				</p>
-				<p class="search-item">
-					<label for="adults">Взрослые:</label>
-					<button class="decrease-button form-button button" type="button">-</button>
-					<input id="adults" type="text" name="adults" placeholder="2">
-					<button class="increase-button form-button button" type="button">+</button>
-				</p>
-				<p class="search-item">
-					<label for="children">Дети:</label>
-					<button class="decrease-button form-button button" type="button">-</button>
-					<input id="children" type="text" name="children" placeholder="0">
-					<button class="increase-button form-button button" type="button">+</button>
-				</p>
-				<button class="search-button button" type="submit">Найти</button>
-			</form>
+			<div class="map-background">
+				<form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+					<p class="search-item">
+						<label for="check-in">Дата заезда:</label>
+						<input id="check-in" type="text" name="check-in" placeholder="24 апреля 2017">
+						<button class="calendar-button form-button button" type="button">Календарь</button>
+					</p>
+					<p class="search-item">
+						<label for="check-out">Дата выезда:</label>
+						<input id="check-out" type="text" name="check-out" placeholder="4 июля 2017">
+						<button class="calendar-button form-button button" type="button">Календарь</button>
+					</p>
+					<p class="search-item">
+						<label for="adults">Взрослые:</label>
+						<button class="decrease-button form-button button" type="button">-</button>
+						<input id="adults" type="text" name="adults" placeholder="2">
+						<button class="increase-button form-button button" type="button">+</button>
+					</p>
+					<p class="search-item">
+						<label for="children">Дети:</label>
+						<button class="decrease-button form-button button" type="button">-</button>
+						<input id="children" type="text" name="children" placeholder="0">
+						<button class="increase-button form-button button" type="button">+</button>
+					</p>
+					<button class="search-button button" type="submit">Найти</button>
+				</form>
+			</div>
 		</section>
 		<footer class="main-footer">
 			<p class="footer-tag">

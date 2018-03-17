@@ -91,3 +91,11 @@ a {
   font: inherit;
   background-color: #f2f2f2;
 }
+
+.search-item input:focus {
+  border-color: #663d15;
+}
+
+.map-background {
+	background-image: url(../img/map.jpg);
+}
