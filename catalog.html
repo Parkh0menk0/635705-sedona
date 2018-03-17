@@ -3,6 +3,9 @@
 <head>
 	<meta charset="utf-8">	
 	<title>Гостиницы &ndash; &laquo;Седона&raquo;</title>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 	<header class="main-header">
@@ -31,51 +34,53 @@
 	<main class="directory-contents">
 		<h1 class="visually-hidden">Поиск жилья в Седоне</h1>
 		<section class="filters">
-			<h2 class="visually-hidden">Фильтр поиска жилья</h2>
-			<form class="filter" action="https://echo.htmlacademy.ru" method="get">
-				<fieldset>
-					<legend>Инфраструктура:</legend>
-					<ul>
-						<li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-checkbox" id="filter-swimming-pool" type="checkbox" name="the-filter-of-option" value="swimming-pool" checked>
-							<label for="filter-swimming-pool">Бассейн</label>
-						</li>
-						<li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-checkbox" id="filter-parking" type="checkbox" name="the-filter-of-option" value="parking">
-							<label for="filter-parking">Парковка</label>
-						</li>
-						<li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-checkbox" id="filter-wi-fi" type="checkbox" name="the-filter-of-option" value="wi-fi">
-							<label for="filter-wi-fi">Wi-Fi</label>
-						</li>
-					</ul>
-				</fieldset>
-				<fieldset>
-					<legend>Тип жилья:</legend>
-					<ul>
-						<li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-checkbox" id="filter-hotel" type="checkbox" name="the-filter-of-option" value="hotel" checked>
-							<label for="filter-hotel">Гостинница</label>
-						</li>
-						<li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-checkbox" id="filter-motel" type="checkbox" name="the-filter-of-option" value="motel" checked>
-							<label for="filter-motel">Мотель</label>
-						</li>
-						<li class="filter-option">
-							<input class="visually-hidden filter-input filter-input-checkbox" id="filter-apartments" type="checkbox" name="the-filter-of-option" value="apartments" checked>
-							<label for="filter-apartments">Аппартаменты</label>
-						</li>
-					</ul>
-				</fieldset>
-				<fieldset>
-					<legend>Стоимость в сутки (р):</legend>
-					<output class="output-from" name="output-f">0</output>
-					<output class="output-to" name="output-t">3000</output>
-					<input class="input-from" type="range" name="from" min="0" step="1" value="0">
-					<input class="input-to" type="range" name="to" max="4000" step="1" value="3000">
-				</fieldset>
-				<button class="filter-button button" type="submit">Показать</button>
-			</form>
+			<div class="filter-background">
+				<h2 class="visually-hidden">Фильтр поиска жилья</h2>
+				<form class="filter" action="https://echo.htmlacademy.ru" method="get">
+					<fieldset>
+						<legend>Инфраструктура:</legend>
+						<ul>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-checkbox" id="filter-swimming-pool" type="checkbox" name="the-filter-of-option" value="swimming-pool" checked>
+								<label for="filter-swimming-pool">Бассейн</label>
+							</li>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-checkbox" id="filter-parking" type="checkbox" name="the-filter-of-option" value="parking">
+								<label for="filter-parking">Парковка</label>
+							</li>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-checkbox" id="filter-wi-fi" type="checkbox" name="the-filter-of-option" value="wi-fi">
+								<label for="filter-wi-fi">Wi-Fi</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset>
+						<legend>Тип жилья:</legend>
+						<ul>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-checkbox" id="filter-hotel" type="checkbox" name="the-filter-of-option" value="hotel" checked>
+								<label for="filter-hotel">Гостинница</label>
+							</li>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-checkbox" id="filter-motel" type="checkbox" name="the-filter-of-option" value="motel" checked>
+								<label for="filter-motel">Мотель</label>
+							</li>
+							<li class="filter-option">
+								<input class="visually-hidden filter-input filter-input-checkbox" id="filter-apartments" type="checkbox" name="the-filter-of-option" value="apartments" checked>
+								<label for="filter-apartments">Аппартаменты</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset>
+						<legend>Стоимость в сутки (р):</legend>
+						<output class="output-from" name="output-f">0</output>
+						<output class="output-to" name="output-t">3000</output>
+						<input class="input-from" type="range" name="from" min="0" step="1" value="0">
+						<input class="input-to" type="range" name="to" max="4000" step="1" value="3000">
+					</fieldset>
+					<button class="filter-button button" type="submit">Показать</button>
+				</form>
+			</div>
 		</section>
 		<section class="catalog">
 			<h2 class="visually-hidden">Список результатов поиска жилья</h2>
@@ -179,24 +184,24 @@
 		</section> 
 	</main>
 	<footer class="main-footer">
-			<p class="footer-tag">
-				<a href="#">#visitsedona</a>
-			</p>
-			<ul class="footer-social">
-				<li class="footer-social-item">
-					<a class="icon-twitter" href="twitter.com">twitter</a>
-				</li>
-				<li class="footer-social-item">
-					<a class="icon-facebook" href="facebook.com">facebook</a>
-				</li>
-				<li class="footer-social-item">
-					<a class="icon-youtube" href="youtube.com">youtube</a>
-				</li>
-			</ul>
-			<p class="footer-copyright">
-				website by
-				<a class="htmlacademy-logo" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy</a>
-			</p>
-		</footer>
+		<p class="footer-tag">
+			<a href="#">#visitsedona</a>
+		</p>
+		<ul class="footer-social">
+			<li class="footer-social-item">
+				<a class="icon-twitter" href="twitter.com">twitter</a>
+			</li>
+			<li class="footer-social-item">
+				<a class="icon-facebook" href="facebook.com">facebook</a>
+			</li>
+			<li class="footer-social-item">
+				<a class="icon-youtube" href="youtube.com">youtube</a>
+			</li>
+		</ul>
+		<p class="footer-copyright">
+			website by
+			<a class="htmlacademy-logo" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy</a>
+		</p>
+	</footer>
 </body>
 </html>
