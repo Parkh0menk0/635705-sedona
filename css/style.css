@@ -40,7 +40,21 @@ a {
 	color: #766357;
 }
 
-.goods-and-services,
-.remaining-features {
+.features-list,
+.goods-and-services {
 	list-style: none;
+}
+
+.features-list-item {
+  text-align: center;
+}
+
+.features-list-item h3,
+.goods-and-services-item h3 {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.features-list-item:nth-child(-n+2) {
+	color: #ffffff;
 }
