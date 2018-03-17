@@ -166,3 +166,11 @@ a {
 	color: #81b3d2;
 }
 
+.container > p,
+.features-list-item p,
+.order-info,
+.sort,
+.view-and-book-item,
+.rating {
+	font-weight: normal;
+}
