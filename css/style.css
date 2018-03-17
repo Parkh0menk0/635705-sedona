@@ -76,3 +76,9 @@ a {
   color: #ffffff;
   background-color: #81b3d2;
 }
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
