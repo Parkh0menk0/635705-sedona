@@ -58,3 +58,21 @@ a {
 .features-list-item:nth-child(-n+2) {
 	color: #ffffff;
 }
+
+.button {
+  font: inherit;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+}
+
+.search-button {
+  color: #ffffff;
+  background-color: #766357;
+}
+
+.search-form .search-button {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
