@@ -18,6 +18,7 @@ body {
 
 a {
 	text-decoration: none;
+	color: black;
 }
 
 .main-navigation {
@@ -67,12 +68,12 @@ a {
   border: none;
 }
 
-.brown-bottom.search-button {
+.brown-bottom {
   color: #ffffff;
   background-color: #766357;
 }
 
-.blue-bottom.search-button {
+.blue-bottom {
   color: #ffffff;
   background-color: #81b3d2;
 }
@@ -156,3 +157,12 @@ a {
 	color: #ffffff;
 	background-color: transparent;
 }
+
+.sort-item a {
+	color: #b1b1b1;
+	border-bottom: 1px dotted #81b3d2;
+}
+.sort-item:first-child a {
+	color: #81b3d2;
+}
+
