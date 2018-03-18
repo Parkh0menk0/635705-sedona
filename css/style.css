@@ -102,6 +102,7 @@ img {
 
 .search-item input {
   font: inherit;
+  line-height: 21px;
   background-color: #f2f2f2;
 }
 
