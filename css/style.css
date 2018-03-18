@@ -45,6 +45,7 @@ img {
 
 .button {
   font: inherit;
+  line-height: 21px;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
