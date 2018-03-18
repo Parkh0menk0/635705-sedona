@@ -10,9 +10,20 @@ body {
 	background-color: #ffffff;
 }
 
+html { 
+	box-sizing: border-box; 
+}
+
+*, *::before, *::after { 
+	box-sizing: inherit; 
+}
+
 a {
 	text-decoration: none;
-	color: black;
+}
+
+img { 
+	max-width: 100%; 
 }
 
 .header-background {
