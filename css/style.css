@@ -8,7 +8,7 @@ body {
 	font-weight: 700;
 	color: #000000;
 	text-transform: uppercase;
-	
+
 	background-color: #ffffff;
 }
 
@@ -112,6 +112,11 @@ img {
 
 .features-list-item p {
 	font-weight: normal;
+}
+
+.features-list-item:first-child,
+.features-list-item:nth-child(2)  {
+	background-color: #81b3d2;
 }
 
 form input {
