@@ -165,7 +165,7 @@ form input:focus {
 }
 
 .map-background {
-	background-image: url(../img/map.jpg);
+	background-image: url("../img/map.jpg");
 }
 
 .main-footer {
@@ -221,7 +221,7 @@ form input:focus {
 }
 
 .filter-background {
-	background-image: url(../img/background-filter.jpg);
+	background-image: url("../img/background-filter.jpg");
 	background-repeat: no-repeat;
 }
 
