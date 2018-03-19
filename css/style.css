@@ -187,6 +187,22 @@ form input:focus {
 	color: #ffffff;
 }
 
+.order-info {
+	font-weight: normal;
+}
+
+.sort {
+	font-weight: normal;
+}
+
+.view-and-book-item {
+	font-weight: normal;
+}
+
+.rating {
+	font-weight: normal;
+}
+
 .main-footer a {
 	color: #000000;
 	text-decoration: none;
@@ -293,11 +309,10 @@ form input:focus {
 	background-color: #bdbbbc;
 }
 
-.container > p,
-.features-list-item p,
-.order-info,
-.sort,
-.view-and-book-item,
-.rating {
+.container > p {
+	font-weight: normal;
+}
+
+.features-list-item p {
 	font-weight: normal;
 }
