@@ -1,12 +1,14 @@
 body {
 	margin: 0;
 	padding: 0;
+
 	font-family: "PT Sans", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 700;
 	color: #000000;
 	text-transform: uppercase;
+	
 	background-color: #ffffff;
 }
 
@@ -102,6 +104,14 @@ img {
 
 .form-button:active {
 	color: #81b3d2;
+}
+
+.container > p {
+	font-weight: normal;
+}
+
+.features-list-item p {
+	font-weight: normal;
 }
 
 form input {
@@ -213,13 +223,6 @@ form input:focus {
 	color: #766357;
 }
 
-.footer-copyright .button:hover,
-.footer-copyright .button:focus {
-	color: #766357;
-
-	background-color: #ffffff;
-}
-
 .filter-background {
 	background-image: url("../img/background-filter.jpg");
 	background-repeat: no-repeat;
@@ -297,22 +300,14 @@ form input:focus {
 	background-color: #5496bd;
 }
 
-.footer-copyright a div {
+.main-footer .htmlacademy-logo div {
 	background-color: #000000;
 }
 
-.footer-copyright a div:hover {
+.main-footer .htmlacademy-logo div:hover {
 	background-color: #81b3d2;
 }
 
-.footer-copyright a div:active {
+.main-footer .htmlacademy-logo div:active {
 	background-color: #bdbbbc;
-}
-
-.container > p {
-	font-weight: normal;
-}
-
-.features-list-item p {
-	font-weight: normal;
 }
