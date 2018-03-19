@@ -269,6 +269,30 @@ form input:focus {
 	color: #b2b2b2;
 }
 
+.footer-social-item a div {
+	background-color: #81b3d2;
+}
+
+.footer-social-item a div:hover {
+	background-color: #669ec0;
+}
+
+.footer-social-item a div:active {
+	background-color: #5496bd;
+}
+
+.footer-copyright a div {
+	background-color: #000000;
+}
+
+.footer-copyright a div:hover {
+	background-color: #81b3d2;
+}
+
+.footer-copyright a div:active {
+	background-color: #bdbbbc;
+}
+
 .container > p,
 .features-list-item p,
 .order-info,
