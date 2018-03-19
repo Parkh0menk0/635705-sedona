@@ -237,6 +237,10 @@ form input:focus {
 	border-bottom: none;
 }
 
+.sort-item-current {
+	color: #81b3d2;
+}
+
 .selector {
 	list-style: none;
 }
