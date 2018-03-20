@@ -1,7 +1,35 @@
-body {
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+p,
+a,
+img,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+caption {
   margin: 0;
   padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
 
+html {
+  box-sizing: border-box;
+}
+
+body {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -12,8 +40,13 @@ body {
   background-color: #ffffff;
 }
 
-html {
-  box-sizing: border-box;
+ol,
+ul {
+  list-style: none;
+}
+
+:focus {
+  outline: 0;
 }
 
 *,
@@ -31,7 +64,7 @@ img {
 }
 
 .header-background {
-	background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .main-navigation {
@@ -39,10 +72,6 @@ img {
   line-height: 26px;
   color: #000000;
   background-color: #ffffff;
-}
-
-.navigation {
-  list-style: none;
 }
 
 .button {
@@ -152,11 +181,6 @@ form input:focus {
   color: #766357;
 }
 
-.features-list,
-.goods-and-services {
-  list-style: none;
-}
-
 .features-list-item {
   text-align: center;
 }
@@ -194,10 +218,6 @@ form input:focus {
 .footer-copyright,
 .footer-tag {
   text-align: center;
-}
-
-.footer-social-item {
-  list-style: none;
 }
 
 .social-button {
@@ -239,15 +259,6 @@ form input:focus {
   color: #ffffff;
 }
 
-.filter-option,
-.view-and-book-item>li {
-  list-style: none;
-}
-
-.sort {
-  list-style: none;
-}
-
 .sort-item a {
   color: #cacaca;
   border-bottom: 1px dotted #81b3d2;
@@ -265,10 +276,6 @@ form input:focus {
 
 .sort-item-current {
   color: #81b3d2;
-}
-
-.selector {
-  list-style: none;
 }
 
 .selector-item a {
@@ -295,7 +302,7 @@ form input:focus {
   color: #b2b2b2;
 }
 
-.footer-social-item a  {
+.footer-social-item a {
   background-color: #81b3d2;
 }
 
