@@ -31,9 +31,7 @@ img {
 }
 
 .header-background {
-  background-image: url("../img/background.jpg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+	background-color: #ffffff;
 }
 
 .main-navigation {
