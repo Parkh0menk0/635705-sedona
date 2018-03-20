@@ -295,26 +295,26 @@ form input:focus {
   color: #b2b2b2;
 }
 
-.footer-social-item a div {
+.footer-social-item a  {
   background-color: #81b3d2;
 }
 
-.footer-social-item a div:hover {
+.footer-social-item a:hover {
   background-color: #669ec0;
 }
 
-.footer-social-item a div:active {
+.footer-social-item a:active {
   background-color: #5496bd;
 }
 
-.main-footer .htmlacademy-logo div {
+.main-footer .htmlacademy-logo a {
   background-color: #000000;
 }
 
-.main-footer .htmlacademy-logo div:hover {
+.main-footer .htmlacademy-logo a:hover {
   background-color: #81b3d2;
 }
 
-.main-footer .htmlacademy-logo div:active {
+.main-footer .htmlacademy-logo a:active {
   background-color: #bdbbbc;
 }
