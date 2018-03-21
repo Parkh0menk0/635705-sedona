@@ -502,6 +502,19 @@ body {
   background-size: auto;
 }
 
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .main-navigation {
   display: flex;
   flex-direction: column;
@@ -533,7 +546,29 @@ body {
   background-image: url(../img/index-header-background.jpg);
 }
 
-.container .visually-hidden {
-  color: transparent;
-  position: absolute;
+.preview {
+  width: 1200px;
+  height: 216px;
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.preview .slogan {
+  margin-left: 380px;
+  margin-right: 380px;
+  text-align: center;
+}
+
+.features .features-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.features-list-item {
+	display: flex;
+	flex-direction: column;
+}
+
