@@ -9,22 +9,52 @@ html {
 }
 
 body {
-  margin: 0 40px;
+  margin: 0 auto;
   padding: 0;
+  max-width: 1200px;
+  min-width: 768px;
+  width: 1200px;
+
+  background-color: #f2f2f2;
+  color: #000000;
 
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
-  line-height: 24px;
-  font-weight: 700;
+  line-height: 26px;
   color: #000000;
   text-transform: uppercase;
-
-  background-size: 1200px auto;
-  background-color: #f2f2f2;
 }
 
 a {
   text-decoration: none;
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-navigation {
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+.main-header-logo img {
+  width: 138px;
+  height: 70px;
+  margin-left: 50%;
 }
 
 form label {
@@ -100,14 +130,6 @@ form legend {
 
 .form-button:active {
   color: #81b3d2;
-}
-
-.main-navigation {
-  font-size: 14px;
-  line-height: 26px;
-  color: #000000;
-
-  background-color: #ffffff;
 }
 
 .site-navigation {
@@ -488,6 +510,12 @@ form input:focus {
 }
 
 
+
+
+
+
+
+
 /* ----- Сеточные стили ----- */
 
 html,
@@ -523,21 +551,9 @@ body {
   background-color: #ffffff;
 }
 
-.main-header-logo {
-  width: 138px;
-  height: 70px;
-
-  /* Временно для сетки */
-}
-
 .site-navigation {
   display: flex;
   justify-content: space-between;
-}
-
-.main-navigation>img {
-  align-self: center;
-  position: absolute;
 }
 
 .header-background {
@@ -563,12 +579,11 @@ body {
 }
 
 .features .features-list {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .features-list-item {
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-
