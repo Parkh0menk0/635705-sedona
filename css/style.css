@@ -129,85 +129,18 @@ form legend {
   color: #766357;
 }
 
-.container>p {
+.features h3 {
   margin: 0;
-  padding: 0;
-
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: normal;
-}
-
-.container>h3 {
-  margin: 0;
-  padding: 0;
-
-  font-size: 21px;
-  line-height: 26px;
-  font-weight: bold;
-}
-
-.features-list {
-  list-style: none;
-}
-
-.features-list p {
-  margin: 0;
-  padding: 0;
-
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: normal;
-}
-
-.features-list h3 {
-  margin: 0;
-  padding: 0;
-
   font-size: 21px;
   line-height: 21px;
   font-weight: bold;
 }
 
-.features-list-item {
-  text-align: center;
-}
-
-.features-list-item:first-child,
-.features-list-item:nth-child(2) {
-  background-color: #81b3d2;
-}
-
-.features-list-item:nth-child(-n+2) {
-  color: #ffffff;
-}
-
-.goods-and-services {
-  list-style: none;
-}
-
-.goods-and-services p {
+.features p {  
   margin: 0;
-  padding: 0;
-
   font-size: 14px;
   line-height: 21px;
   font-weight: normal;
-}
-
-.goods-and-services h3 {
-  margin: 0;
-  padding: 0;
-
-  font-size: 21px;
-  line-height: 21px;
-  font-weight: bold;
-}
-
-.goods-and-services-item {
-  text-align: center;
-
-  background-color: #eeeeee;
 }
 
 .order>p:first-of-type {
@@ -337,6 +270,8 @@ form input:focus {
 }
 
 
+
+
 /* ----- Сеточные стили ----- */
 
 html,
@@ -409,14 +344,12 @@ body {
   background-color: #ffffff;
 }
 
-.goods-and-services-item {
-  width: 33%;
-  padding: 65px 50px;
+.features-item {
   text-align: center;
   background: #ffffff;
 }
 
-.goods-and-services-item p {
+.features-item p {
   line-height: 1.5;
 }
 
@@ -441,10 +374,9 @@ body {
 }
 
 .fourth-line {
-  width: 100%;
-  height: 256px;
-  margin: 0 auto;
   display: flex;
+  width: 100%;
+  margin: 0 auto;
   vertical-align: middle;
   text-align: center;
   background-color: #eeeeee;
@@ -739,6 +671,8 @@ body {
 }
 
 
+
+
 /*catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog*/
 
 .filters {
@@ -752,8 +686,8 @@ body {
 }
 
 .filters ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .filters li {
@@ -862,8 +796,8 @@ body {
 }
 
 .catalog ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .results {
