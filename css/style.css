@@ -27,10 +27,6 @@ body {
 
 a {
   text-decoration: none;
-  font-size: 14px;
-  line-height: 26px;
-  color: #000000;
-  font-weight: bold;
 }
 
 .visually-hidden {
@@ -108,6 +104,9 @@ form legend {
 }
 
 .site-navigation a {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -354,37 +353,6 @@ form input:focus {
   font-weight: bold;
 }
 
-.sort-item a {
-  color: #cacaca;
-  border-bottom: 1px dotted #81b3d2;
-}
-
-.sort-item a:hover {
-  color: #81b3d2;
-  border-bottom: 1px dotted #81b3d2;
-}
-
-.sort-item a:active {
-  color: #000000;
-  border-bottom: none;
-}
-
-.sort-item-current {
-  color: #81b3d2;
-}
-
-.selector-item a {
-  color: #cacaca;
-}
-
-.selector-item a:hover {
-  color: #000000;
-}
-
-.selector-item a:active {
-  color: #81b3d2;
-}
-
 .housing-item h3 {
   margin: 0;
   padding: 0;
@@ -393,60 +361,6 @@ form input:focus {
   line-height: 26px;
   font-weight: bold;
 }
-
-.housing-item h3 a {
-  color: #000000;
-}
-
-.housing-item h3 a:hover {
-  color: #81b3d2;
-}
-
-.housing-item h3 a:active {
-  color: #b2b2b2;
-}
-
-.footer-social-item a {
-  background-color: #81b3d2;
-}
-
-.footer-social-item a:hover {
-  background-color: #669ec0;
-}
-
-.footer-social-item a:active {
-  background-color: #5496bd;
-}
-
-.main-footer .htmlacademy-logo a {
-  background-color: #000000;
-}
-
-.main-footer .htmlacademy-logo a:hover {
-  background-color: #81b3d2;
-}
-
-.main-footer .htmlacademy-logo a:active {
-  background-color: #bdbbbc;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ----- Сеточные стили ----- */
 
@@ -793,6 +707,9 @@ body {
 .footer-tag a {
   font-size: 21px;
   line-height: 26px;
+  color: #000000;
+  font-weight: bold;
+
   padding-left: 133px;
   font-weight: bold;
 }
@@ -844,11 +761,12 @@ body {
 .footer-copyright a {
   width: 115px;
   height: 41px;
+
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
 }
-
-
-
-
 
 /*catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog*/
 
@@ -859,7 +777,7 @@ body {
   list-style-type: none;
   background: #57646e url("../img/background-filter.jpg") no-repeat;
   background-size: cover;
-    height: auto;
+  height: auto;
 }
 
 .filters li {
@@ -1013,7 +931,7 @@ body {
   line-height: 18px;
   font-weight: 100;
   align-items: center;
-  color: #000000;
+  color: #cacaca;
   border-bottom: 1px dotted #81b3d2;
 }
 
@@ -1040,101 +958,110 @@ body {
   margin-right: 73px;
   padding-bottom: 6px;
 }
+
 .selector li {
-    padding-left: 12px;
+  padding-left: 12px;
 }
+
 .filters li,
 .catalog li {
-    list-style-type: none;
-    font-size: 14px;
-    line-height: 21px;
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .housing-result {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .housing-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 0px;
-    border-top: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+  border-top: 1px solid #e5e5e5;
 }
 
 .housing-poster img {
-    max-width: 135px;
+  max-width: 135px;
 }
 
 .housing-descriotion {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    margin-left: 30px;
-    margin-bottom: 0px;
+  margin-left: 30px;
+  margin-bottom: 0px;
 }
 
 .the-name-of-the-hotel a {
-    font-size: 21px;
-    line-height: 26px;
-    color: #000000;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  font-weight: bold;
 }
 
 .the-name-of-the-hotel a:hover {
-    color: #81b3d2
+  font-size: 21px;
+  line-height: 26px;
+  color: #81b3d2;
+  font-weight: bold;
 }
 
 .the-name-of-the-hotel a:active {
-    color: #b2b2b2
+  font-size: 21px;
+  line-height: 26px;
+  color: #b2b2b2;
+  font-weight: bold;
 }
 
 .housing-wrapper {
-    display: flex;
+  display: flex;
 }
 
 .view-button {
-    display: block;
-    width: 110px;
+  display: block;
+  width: 110px;
 
-    text-align: center;
-    font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 
-    color: #ffffff;
-    background: #81b3d2;
+  color: #ffffff;
+  background: #81b3d2;
 }
 
 .view-button:hover {
-    background: #669ec0;
+  background: #669ec0;
 }
 
 .view-button:active {
-    background: #5496bd;
-    color: #88b6d1;
+  background: #5496bd;
+  color: #88b6d1;
 }
 
 .housing-price span:first {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .book-button {
-    display: block;
-    width: 142px;
-    color: #ffffff;
-    text-align: center;
-    background: #766357;
+  display: block;
+  width: 142px;
+  color: #ffffff;
+  text-align: center;
+  background: #766357;
 }
 
 .book-button:hover {
-    background: #604e43;
+  background: #604e43;
 }
 
 .book-button:active {
-    background: #503e33;
-    color: #857871;
+  background: #503e33;
+  color: #857871;
 }
 
 .rating-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
 }
