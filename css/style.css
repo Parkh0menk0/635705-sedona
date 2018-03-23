@@ -98,6 +98,8 @@ form legend {
 
 .site-navigation {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
 }
@@ -359,6 +361,7 @@ form input:focus {
   font-weight: bold;
 }
 
+
 /* ----- Сеточные стили ----- */
 
 html,
@@ -392,11 +395,6 @@ body {
   /* Временно для сетки */
   min-height: 56px;
   background-color: #ffffff;
-}
-
-.site-navigation {
-  display: flex;
-  justify-content: space-between;
 }
 
 .header-background {
@@ -765,6 +763,7 @@ body {
   font-weight: bold;
 }
 
+
 /*catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog -|- catalog*/
 
 .filters {
@@ -775,6 +774,11 @@ body {
   background: #57646e url("../img/background-filter.jpg") no-repeat;
   background-size: cover;
   height: auto;
+}
+
+.filters ul {
+    margin: 0;
+    padding: 0;
 }
 
 .filters li {
@@ -880,6 +884,11 @@ body {
   display: flex;
   align-items: center;
   background-color: #ffffff;
+}
+
+.catalog ul {
+    margin: 0;
+    padding: 0;
 }
 
 .results {
