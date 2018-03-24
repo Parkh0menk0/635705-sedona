@@ -69,7 +69,7 @@ img {
 }
 
 .site-navigation li {
-  width: 20%;
+  width: 240px;
   list-style: none;
 }
 
@@ -138,8 +138,7 @@ img {
 
 .first-line {
   display: flex;
-
-  width: 100%;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -157,23 +156,43 @@ img {
   line-height: 1.5;
 }
 
+.city-poster {
+  width: 800px;
+  height: auto;
+  background-color: #605a42;
+  background-image: url("../img/this-town.jpg");
+  background-position: center;
+}
+
 .second-line {
   display: flex;
   align-items: center;
   vertical-align: middle;
+  width: 1200px;
 }
 
 .third-line {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
+  width: 1200px;
+}
+
+.bridge-poster {
+  width: 800px;
+  height: auto;
+  background-color: #605a42;
+  background-image: url("../img/devil's-bridge.jpg");
+  background-position: center;
 }
 
 .fourth-line {
-  margin: 0 auto;
   display: flex;
   vertical-align: middle;
   text-align: center;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #eeeeee;
 }
 
 .features-item.with-out-icon {
