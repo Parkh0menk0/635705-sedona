@@ -9,6 +9,7 @@ html {
 }
 
 body {
+  position: relative;
   margin: 0 auto;
   padding: 0;
   max-width: 1200px;
@@ -50,14 +51,18 @@ img {
 }
 
 .main-navigation {
+  position: relative;
   color: #ffffff;
   background-color: #ffffff;
 }
 
 .main-header-logo img {
+  position: absolute;
+  left: 50%;
   width: 138px;
   height: 70px;
   margin: 0px;
+  z-index: 1;
 }
 
 .site-navigation {
@@ -66,11 +71,12 @@ img {
   justify-content: flex-start;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .site-navigation li {
   width: 240px;
-  list-style: none;
+  padding: 15px 0;
 }
 
 .site-navigation a {
@@ -79,6 +85,28 @@ img {
   color: #000000;
   font-weight: bold;
   text-decoration: none;
+}
+
+.site-navigation li:first-child {
+  padding-left: 6%;
+}
+
+.site-navigation li:nth-child(2) {
+  margin-right: 8%;
+}
+
+.site-navigation li:nth-child(4) {
+  padding-right: 6%;
+}
+
+.site-navigation li:first-child,
+.site-navigation li:nth-child(2) {
+  text-align: left;
+}
+
+.site-navigation li:nth-child(3),
+.site-navigation li:nth-child(4) {
+  text-align: right;
 }
 
 .main-navigation .navigation-item a:hover {
