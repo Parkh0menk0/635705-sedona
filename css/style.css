@@ -284,7 +284,7 @@ img {
 
 .features-item.with-out-icon {
   width: 400px;
-  height: auto;
+  height: 256px;
   background: #eeeeee;
   position: relative;
   padding-top: 30px;
@@ -326,21 +326,29 @@ img {
 }
 
 .order {
+  position: relative;
   text-align: center;
   background-color: #ffffff;
+  padding-top: 53px;
 }
 
 .order p {
+  margin-bottom: 47px;
   line-height: 1.8;
 }
 
 .order .to-the-order {
+  margin-top: -5px;
+  margin-bottom: 24px;
   font-weight: bold;
   font-size: 30px;
   line-height: 36px;
 }
 
 .search-hotel-button {
+  display: inline-block;
+  width: 568px;
+  padding: 30px;
   margin: 0 auto;
   font-weight: bold;
   font-size: 21px;
@@ -360,10 +368,23 @@ img {
 }
 
 .order-form {
+  position: absolute;
+  left: 25.2%;
+  right: 25.2%;
   margin: 0 auto;
   font-weight: bold;
   background: #ffffff;
   width: 568px;
+}
+
+.check-in {
+  padding-top: 35px;
+  padding-bottom: 29px;
+  padding-left: 54px;
+}
+
+.check-out {
+  padding-left: 58px;
 }
 
 .order-form input {
@@ -378,9 +399,49 @@ img {
   border: none;
 }
 
+.come {
+  margin-left: 3px;
+}
+
+.come svg {
+  position: absolute;
+  top: 63px;
+  right: 63px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.leave span {
+  margin-top: 10px;
+  margin-left: 4px;
+}
+
+.leave svg {
+  position: absolute;
+
+  top: 130px;
+  right: 63px;
+
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
 .adults-wrapper {
   display: flex;
   align-items: center;
+}
+
+.adults {
+  width: 230px;
+  position: relative;
+  top: 30px;
+  left: 56px;
+}
+
+.adults label {
+  margin-right: 39px;
 }
 
 .children-wrapper {
@@ -399,12 +460,24 @@ img {
   height: 38px;
 }
 
+.children {
+  position: relative;
+  left: 336px;
+  bottom: 8px;
+
+  width: 230px;
+}
+
+.children label {
+  margin-right: 25px;
+}
+
 .children input {
+  width: 36px;
   margin: 0;
   padding: 0;
+  padding-left: 2px;
   text-align: center;
-  width: 38px;
-  height: 38px;
 }
 
 .order-form input:hover {
@@ -413,6 +486,15 @@ img {
 
 .order-form input:focus {
   background-color: #ffffff;
+}
+
+.come input {
+  margin-left: 24px;
+  margin-top: 20px;
+}
+
+.leave input {
+  margin-left: 23px;
 }
 
 .button-number:hover {
@@ -457,6 +539,8 @@ img {
   color: #ffffff;
   text-transform: uppercase;
   border: none;
+  padding: 17px 197px 15px 196px;
+  margin: 45px 55px 55px 55px;
 }
 
 .button-search:hover {
