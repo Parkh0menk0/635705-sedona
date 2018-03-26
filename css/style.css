@@ -172,6 +172,30 @@ img {
   line-height: 1.5;
 }
 
+.second-line div:nth-child(2) {
+  background-color: #ffffff;
+  background-image: url("../img/icon-food.svg");
+  background-repeat: no-repeat;
+  width: 75;
+  height: 72;
+}
+
+.second-line div:first-child {
+  background-color: #ffffff;
+  background-image: url("../img/icon-housing.svg");
+  background-repeat: no-repeat;
+  width: 75;
+  height: 72;
+}
+
+.second-line div:nth-child(3) {
+  background-color: #ffffff;
+  background-image: url("../img/icon-souvenirs.svg");
+  background-repeat: no-repeat;
+  width: 75;
+  height: 72;
+}
+
 .first-line {
   display: flex;
   width: 1200px;
