@@ -710,6 +710,8 @@ input[type="checkbox"]:checked + label::before {
   line-height: 21px;
   font-weight: bold;
   color: #ffffff;
+  padding-top: 27px;
+  padding-left: 73px;
 }
 
 .filter-catalog-form fieldset:nth-child(1) {
@@ -729,6 +731,10 @@ input[type="checkbox"]:checked + label::before {
 .value {
   color: #ffffff;
   text-transform: uppercase;
+  position: relative;
+  width: 318px;
+  bottom: 3px;
+  left: 11px;
 }
 
 .title {
