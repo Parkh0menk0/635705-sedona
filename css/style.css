@@ -872,6 +872,7 @@ input[type="checkbox"]:checked+label::before {
 .results b {
   font-weight: normal;
   font-weight: bold;
+  padding-left: 72px;
 }
 
 .results span {
@@ -904,6 +905,7 @@ input[type="checkbox"]:checked+label::before {
 }
 
 .sort a {
+	display: block;
   font-size: 12px;
   line-height: 18px;
   font-weight: 100;
@@ -949,6 +951,13 @@ input[type="checkbox"]:checked+label::before {
   list-style-type: none;
   font-size: 14px;
   line-height: 21px;
+  margin-bottom: -4px;
+}
+
+.filter-form-text {
+  position: relative;
+  top: 8px;
+  right: 4px;
 }
 
 .housing-result {
@@ -959,6 +968,7 @@ input[type="checkbox"]:checked+label::before {
   display: flex;
   align-items: center;
   border-top: 1px solid #e5e5e5;
+  margin-bottom: 0px;
 }
 
 .housing-item:last-child {
@@ -983,6 +993,10 @@ input[type="checkbox"]:checked+label::before {
 }
 
 .housing-descriotion h1 {
+	position: relative;
+	display: block;
+	bottom: 4px;
+	letter-spacing: 0.3px;
   margin-top: 5px;
   margin-bottom: 0px;
 }
@@ -1063,4 +1077,32 @@ input[type="checkbox"]:checked+label::before {
   background: #f2f2f2;
   text-align: center;
   margin: 0;
+}
+
+.rating-item b {
+  position: relative;
+  height: 17px;
+  margin-left: 72px;
+  font-size: 0;
+  line-height: 0;
+  background: url("../img/star.svg") space;
+}
+
+.rating-item .five-stars {
+  width: 89px;
+  top: -4px;
+  right: 51px;
+}
+
+.rating-item .three-stars {
+  width: 64px;
+  top: -3px;
+  right: 26px;
+}
+
+.rating-item .two-stars {
+  width: 40px;
+  background-position: -10%;
+  top: -2px;
+  right: 2px;
 }
