@@ -429,6 +429,10 @@ img {
   background: #fefefe;
 }
 
+.homepage-footer {
+  position: absolute;
+}
+
 .footer-tag {
   width: 400px;
 }
@@ -437,6 +441,7 @@ img {
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
+  padding-left: 133px;
 }
 
 .footer-social {
@@ -476,6 +481,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 400px;
+  margin-left: 5px;
 }
 
 .footer-copyright span {
@@ -486,6 +492,14 @@ img {
   line-height: 26px;
 }
 
+.footer-copyright a {
+  position: relative;
+  top: 1px;
+  right: 2px;
+  margin-left: 15px;
+  width: 115px;
+  height: 41px;
+}
 
 .filters {
   font-size: 16px;
