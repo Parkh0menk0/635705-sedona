@@ -62,7 +62,7 @@ img {
   width: 138px;
   height: 70px;
   margin: 0px;
-  z-index: 1;  
+  z-index: 1;
   transform: translate(-50%);
 }
 
@@ -174,15 +174,15 @@ img {
 
 .second-line div:nth-child(2) {
   background-color: #ffffff;
-  background-image: url("../img/icon-food.svg");
+  background-image: url("../img/icon-3.svg");
   background-repeat: no-repeat;
-  width: 75;
-  height: 72;
+  width: 64;
+  height: 76;
 }
 
 .second-line div:first-child {
   background-color: #ffffff;
-  background-image: url("../img/icon-housing.svg");
+  background-image: url("../img/icon-1.svg");
   background-repeat: no-repeat;
   width: 75;
   height: 72;
@@ -190,10 +190,10 @@ img {
 
 .second-line div:nth-child(3) {
   background-color: #ffffff;
-  background-image: url("../img/icon-souvenirs.svg");
+  background-image: url("../img/icon-2.svg");
   background-repeat: no-repeat;
-  width: 75;
-  height: 72;
+  width: 74px;
+  height: 70px;
 }
 
 .first-line {
@@ -483,7 +483,7 @@ img {
   margin-bottom: 2px;
 }
 
-.social-button {	
+.social-button {
   position: relative;
   display: flex;
   flex-direction: row;
