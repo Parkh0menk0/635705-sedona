@@ -172,28 +172,43 @@ img {
   line-height: 1.5;
 }
 
-.second-line div:nth-child(2) {
-  background-color: #ffffff;
-  background-image: url("../img/icon-3.svg");
-  background-repeat: no-repeat;
-  width: 64;
-  height: 76;
+.housing {
+	position: relative;
+	bottom: 4px;
+	left: 1px;
 }
 
-.second-line div:first-child {
-  background-color: #ffffff;
-  background-image: url("../img/icon-1.svg");
-  background-repeat: no-repeat;
-  width: 75;
-  height: 72;
+.food {
+	position: relative;
+	bottom: 2px;
+	right: 4px;	
 }
 
-.second-line div:nth-child(3) {
-  background-color: #ffffff;
-  background-image: url("../img/icon-2.svg");
-  background-repeat: no-repeat;
-  width: 74px;
-  height: 70px;
+.souvenirs {
+	position: relative;
+	bottom: 7px;
+	left: 1px;
+}
+
+.housing-headline {
+  position: relative;
+  bottom: 3px;
+  margin-bottom: 18px;
+}
+
+.food-headline {
+  position: relative;
+  right: 5px;
+  top: 1px;
+  margin-bottom: 21px;
+  margin-left: 12px;
+}
+
+.souvenirs-headline {
+  position: relative;
+  bottom: 6px;
+  left: 1px;
+  margin-bottom: 15px;
 }
 
 .first-line {
