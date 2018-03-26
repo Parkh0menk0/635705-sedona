@@ -149,6 +149,7 @@ img {
 .preview p {
   color: #333333;
   margin-bottom: 50px;
+  padding-top: 9px;
 }
 
 .features {
@@ -164,6 +165,7 @@ img {
   width: 400px;
   text-align: center;
   background: #ffffff;
+  padding: 65px 50px;
 }
 
 .contains-icon p {
