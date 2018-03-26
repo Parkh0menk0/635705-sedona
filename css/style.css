@@ -116,6 +116,7 @@ img {
 
 .main-navigation a:active {
   color: #b2b2b2;
+  opacity: 0.3;
 }
 
 .site-navigation-current a {
@@ -473,9 +474,13 @@ img {
 }
 
 .footer-copyright span {
+  position: relative;
+  bottom: 2px;
+  left: 5px;
   font-size: 14px;
   line-height: 26px;
 }
+
 
 .filters {
   font-size: 16px;
