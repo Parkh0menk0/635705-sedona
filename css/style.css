@@ -445,7 +445,8 @@ img {
   margin-bottom: 2px;
 }
 
-.social-button {
+.social-button {	
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
