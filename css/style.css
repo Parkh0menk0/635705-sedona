@@ -669,13 +669,13 @@ img {
   min-height: 218px;
 }
 
-input[type="checkbox"] + label {
+input[type="checkbox"]+label {
   position: relative;
   padding-bottom: 18px;
   padding-left: 42px;
 }
 
-input[type="checkbox"] + label::before {
+input[type="checkbox"]+label::before {
   content: "";
   position: absolute;
   top: 7px;
@@ -688,7 +688,7 @@ input[type="checkbox"] + label::before {
   background-repeat: no-repeat;
 }
 
-input[type="checkbox"]:checked + label::before {
+input[type="checkbox"]:checked+label::before {
   background-image: url("../img/checkbox-on.svg");
 }
 
@@ -737,16 +737,52 @@ input[type="checkbox"]:checked + label::before {
   left: 11px;
 }
 
-.title {
+.value .title {
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+}
+
+.price-controls {
+  position: relative;
+  height: 32px;
+  margin-bottom: 20px;
+  font-size: 0;
+  vertical-align: middle;
+  line-height: 36;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+}
+
+.price-controls::after {
+  content: "";
+  position: absolute;
+  top: 16%;
+  left: 50.7%;
+  width: 2px;
+  height: 22px;
+  background: #ffffff;
+  transform: translate(-50%);
 }
 
 .price-controls label {
+  display: inline-block;
   font-size: 14px;
   line-height: normal;
   vertical-align: top;
+  padding-top: 6px;
+}
+
+.price-controls .min-price {
+  width: 90px;
+  padding-left: 67px;
+}
+
+.price-controls .max-price {
+  width: 90px;
+  padding-left: 57px;
 }
 
 .price-controls input {
@@ -759,6 +795,16 @@ input[type="checkbox"]:checked + label::before {
   outline: none;
 }
 
+.range-controls {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.range-controls .range {
+  height: 2px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
 .range-controls .bar {
   width: 80%;
   height: 2px;
@@ -766,6 +812,8 @@ input[type="checkbox"]:checked + label::before {
 }
 
 .range-toggle {
+  position: absolute;
+  top: -9px;
   width: 4px;
   height: 4px;
   background: #ababab;
@@ -773,7 +821,20 @@ input[type="checkbox"]:checked + label::before {
   border-radius: 50%;
 }
 
+.range-toggle:hover {
+  background: #1c4f80;
+}
+
+.range-min {
+  left: 0;
+}
+
+.range-max {
+  left: 80%;
+}
+
 .trancparent-button {
+  display: block;
   margin: 0 auto;
   font-size: 14px;
   line-height: 21px;
@@ -782,6 +843,9 @@ input[type="checkbox"]:checked + label::before {
   background: transparent;
   border: 2px solid #ffffff;
   outline: none;
+  padding: 5px 33px 6px 34px;
+  margin-right: 95px;
+  border-radius: 2px;
 }
 
 .trancparent-button:hover {
@@ -800,6 +864,9 @@ input[type="checkbox"]:checked + label::before {
   font-size: 21px;
   line-height: 26px;
   width: 230px;
+  margin-left: 1px;
+  padding-bottom: 4px;
+  margin-right: 0px;
 }
 
 .results b {
