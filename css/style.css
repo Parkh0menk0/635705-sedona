@@ -62,7 +62,8 @@ img {
   width: 138px;
   height: 70px;
   margin: 0px;
-  z-index: 1;
+  z-index: 1;  
+  transform: translate(-50%);
 }
 
 .site-navigation {
