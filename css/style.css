@@ -440,6 +440,11 @@ img {
   width: 400px;
 }
 
+.footer-social a {
+  margin-left: 6px;
+  margin-bottom: 2px;
+}
+
 .social-button {
   display: flex;
   flex-direction: row;
