@@ -648,6 +648,7 @@ img {
 }
 
 .filters {
+  position: relative;
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
@@ -657,6 +658,8 @@ img {
 }
 
 .filters li {
+  padding-left: 26px;
+  padding-bottom: 29px;
   font-size: 14px;
   line-height: 21px;
 }
@@ -664,6 +667,25 @@ img {
 .filter-catalog-form {
   display: flex;
   min-height: 218px;
+}
+
+input[type="checkbox"] + label {
+  position: relative;
+  padding-bottom: 18px;
+  padding-left: 42px;
+}
+
+input[type="checkbox"] + label::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -6px;
+
+  width: 27px;
+  height: 23px;
+
+  background-image: url("../img/checkbox-off.svg");
+  background-repeat: no-repeat;
 }
 
 .filter-catalog-form h3 {
