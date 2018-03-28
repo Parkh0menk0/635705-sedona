@@ -39,6 +39,8 @@ a {
 
 .main-navigation {
   position: relative;
+  padding-left: 6%;
+  padding-right: 6%;
   color: rgb(255, 255, 255);
   background-color: rgb(255, 255, 255);
 }
@@ -55,15 +57,13 @@ a {
 
 .site-navigation {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .site-navigation li {
-  width: 20%;
+  width: 22.7272727273%;
   padding: 15px 0;
 
   list-style: none;
@@ -76,26 +76,17 @@ a {
   font-weight: bold;
 }
 
-.site-navigation li:first-child {
-  padding-left: 6%;
+.site-navigation-item-left-side {
+  padding-right: 40px;
 }
 
-.site-navigation li:nth-child(2) {
-  margin-right: 8%;
-}
-
-.site-navigation li:nth-child(4) {
-  padding-right: 6%;
-}
-
-.site-navigation li:first-child,
-.site-navigation li:nth-child(2) {
-  text-align: left;
-}
-
-.site-navigation li:nth-child(3),
-.site-navigation li:nth-child(4) {
+.site-navigation-item-right-side {
   text-align: right;
+  padding-left: 40px;
+}
+
+.site-navigation-item-left-side + .site-navigation-item-right-side{
+  margin-left: auto;
 }
 
 .main-navigation a:hover {
