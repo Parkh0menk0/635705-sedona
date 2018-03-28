@@ -212,36 +212,31 @@ a {
 }
 
 .first-line {
+  position: relative;
   display: flex;
-
+  min-height: 256px;
   width: 100%;
-  margin: 0 auto;
-}
-
-.img-right-side {
-  width: 33.3%;
-  height: auto;
-
-  text-align: center;
-  color: rgb(255, 255, 255);
-
   background: rgb(129, 179, 210);
 }
 
-.img-right-side h2 {
-  padding-left: 2px;
-  padding-top: 32px;
-  padding-bottom: 6px;
+.img-right-side {
+  width: 33.33%;
+  min-height: 256px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
 
-  line-height: 1;
+.img-right-side h2 {
+  margin: 45px auto 23px;
+  max-width: 160px;
+  font-size: 21px;
+  line-height: 21px;
 }
 
 .img-right-side p {
-  padding-top: 5px;
-  padding-left: 49px;
-  padding-right: 49px;
-
-  line-height: 1.5;
+  max-width: 285px;
+  margin: 20px auto;
+  line-height: 21px;
 }
 
 .city-poster {
@@ -1132,8 +1127,8 @@ input[type="checkbox"]:focus+label {
   left: 11px;
   bottom: 2px;
   width: 317px;
-  margin: 50px auto; /* для демо */
-
+  margin: 50px auto;
+  /* для демо */
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -1148,7 +1143,7 @@ input[type="checkbox"]:focus+label {
 
 .price-controls {
   position: relative;
-  
+
   height: 33px;
   margin-bottom: 20px;
 
