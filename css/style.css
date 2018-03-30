@@ -259,6 +259,8 @@ a {
   margin: 0 0 23px;
   font-size: 21px;
   line-height: 21px;
+  max-width: 315px;
+  word-break: break-all;
 }
 
 .goods-and-services-item-text {
