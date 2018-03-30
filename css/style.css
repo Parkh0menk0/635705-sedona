@@ -172,7 +172,7 @@ a {
 .bridge-poster {
   position: relative;
   width: 66.66%;
-  background-color: rgb(222, 235, 244);
+  background-color: rgb(129, 179, 210);
   height: inherit;
 }
 
@@ -193,6 +193,7 @@ a {
   max-width: 160px;
   font-size: 21px;
   line-height: 21px;
+  max-width: 315px;
 }
 
 .features-text {
