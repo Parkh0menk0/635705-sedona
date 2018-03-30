@@ -785,6 +785,18 @@ a {
   height: 23px;
 }
 
+.filter-input-checkbox:disabled~.filter-input-checkbox-title {
+  color: rgb(106, 106, 106);
+}
+
+.filter-input-checkbox:disabled~.filter-input-checkbox-title::before {
+  background-image: url(../img/checkbox-off-disabled.svg);
+}
+
+.filter-input-checkbox:checked:disabled~.filter-input-checkbox-title::before {
+  background-image: url(../img/checkbox-on-disabled.svg);
+}
+
 .filter-form-text {
   max-width: 160px;
   word-break: break-all;
