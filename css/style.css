@@ -346,6 +346,7 @@ a {
   background-color: rgb(129, 179, 210);
   text-transform: uppercase;
   text-align: center;
+  word-break: break-all;
 }
 
 .btn:hover,
