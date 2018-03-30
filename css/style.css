@@ -437,6 +437,7 @@ a {
 
 .order-form-input:focus {
   background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(229, 229, 229);
 }
 
 .order-form-input-wrapper-counter {
