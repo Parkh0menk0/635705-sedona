@@ -786,6 +786,11 @@ a {
   height: 23px;
 }
 
+.filter-form-text {
+  max-width: 160px;
+  word-break: break-all;
+}
+
 .caption-query-result {
   display: flex;
   flex-direction: row;
