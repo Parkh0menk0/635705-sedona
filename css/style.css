@@ -123,8 +123,15 @@ a {
 .promo {
   width: 100%;
   height: 508px;
+}
 
-  background: rgb(173, 189, 201) url("../img/index-header-background.jpg");
+.splash-screen {
+  position: absolute;
+  display: block;
+  top: 56px;
+  left: 0;
+  width: 100%;
+  height: auto;
 }
 
 .intro {
