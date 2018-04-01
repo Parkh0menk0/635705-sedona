@@ -392,6 +392,7 @@ a {
   right: 0;
   background-color: rgb(255, 255, 255);
   z-index: 1;
+  box-shadow: 0 10px 20px rgba(0, 1, 1, 0.2);
 }
 
 .order-form-hide {
