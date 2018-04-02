@@ -480,6 +480,7 @@ a {
   background-color: rgb(242, 242, 242);
   width: 100%;
   outline: none;
+  border: 2px solid transparent;
 }
 
 .order-form-input-wrapper-calendar .order-form-input {
