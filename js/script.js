@@ -1,6 +1,7 @@
 var orderButton = document.querySelector(".btn-action");
 var pullDownMenu = document.querySelector("form");
 var In = pullDownMenu.querySelector("[name=check-in]");
+var Out = pullDownMenu.querySelector("[name=check-out]");
 var adults = pullDownMenu.querySelector("[name=adults]");
 var kids = pullDownMenu.querySelector("[name=kids]");
 var storage = localStorage.getItem("In");
