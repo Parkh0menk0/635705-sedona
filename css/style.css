@@ -165,7 +165,7 @@ a {
 }
 
 .features-wrapper {
-  width: 33.34%;
+  width: 33%;
   min-height: 256px;
   padding: 47px 38px 39px;
   background-color: rgb(129, 179, 210);
@@ -176,7 +176,7 @@ a {
 .city-poster,
 .bridge-poster {
   position: relative;
-  width: 66.67%;
+  width: 67%;
   background-color: rgb(129, 179, 210);
   height: inherit;
 }
