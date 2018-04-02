@@ -855,7 +855,7 @@ a {
 }
 
 .filter-input-checkbox:disabled~.filter-input-checkbox-title {
-  color: rgb(106, 106, 106);
+  color: rgb(255, 255, 255);
 }
 
 .filter-input-checkbox:disabled~.filter-input-checkbox-title::before {
