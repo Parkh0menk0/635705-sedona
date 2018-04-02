@@ -96,7 +96,7 @@ a {
   padding-left: 40px;
 }
 
-.site-navigation-item-left-side + .site-navigation-item-right-side {
+.site-navigation-item-left-side+.site-navigation-item-right-side {
   margin-left: auto;
 }
 
@@ -396,34 +396,50 @@ a {
 }
 
 .order-form-hide {
-  animation: hide 0.5s forwards;
+  /*animation: hide 1s forwards;*/
+  display: none;
 }
 
 .order-form-show {
-  animation: show 0.5s forwards;
+  display: block;
+  -webkit-animation: bounce 1s;
+  animation: bounce 1s;
 }
 
-@keyframes show {
-  from {
-    transform: translateY(-100%);
+.order-form-error {
+  -webkit-animation: shake 0.5s;
+  animation: shake 0.5s;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
     opacity: 0;
   }
 
-  to {
+  100% {
     transform: translateY(0);
     opacity: 1;
   }
 }
 
-@keyframes hide {
-  from {
-    transform: translateY(0);
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
   }
-
-  to {
-    transform: translateY(-100%);
-    box-shadow: none;
-    transform-origin: top;
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateX(-5px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    transform: translateX(5px);
   }
 }
 
@@ -433,7 +449,7 @@ a {
   align-items: center;
 }
 
-.order-form-row + .order-form-row {
+.order-form-row+.order-form-row {
   margin-top: 29px;
 }
 
@@ -751,6 +767,7 @@ a {
   fill: rgb(189, 187, 188);
 }
 
+
 /*
 
 Стили для каталога 
@@ -795,7 +812,7 @@ a {
   list-style: none;
 }
 
-.filter-form-item + .filter-form-item {
+.filter-form-item+.filter-form-item {
   margin-top: 23px;
 }
 
@@ -892,7 +909,7 @@ a {
   margin-right: 38px;
 }
 
-.caption-query-result-list-item + .caption-query-result-list-item {
+.caption-query-result-list-item+.caption-query-result-list-item {
   margin-left: 34px;
 }
 
@@ -931,7 +948,7 @@ a {
   list-style: none;
 }
 
-.selector-list-item + .selector-list-item {
+.selector-list-item+.selector-list-item {
   margin-left: 12px;
 }
 
@@ -1069,7 +1086,7 @@ a {
   background-size: 18px 17px;
 }
 
-.star + .star {
+.star+.star {
   margin-left: 5px;
 }
 
@@ -1081,6 +1098,7 @@ a {
   background-color: rgb(242, 242, 242);
   align-self: flex-end;
 }
+
 
 /*
 
