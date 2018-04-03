@@ -29,7 +29,6 @@ body
 
 img
 {
-    max-width: 1200px;
     height: auto;
 }
 
@@ -37,7 +36,6 @@ img
 {
     position: relative;
 
-    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
 
@@ -1081,7 +1079,7 @@ a
 
 .filters
 {
-    min-height: 217px;
+    height: 217px;
     padding: 27px 0 30px;
 
     color: rgb(255, 255, 255);
@@ -1530,7 +1528,7 @@ a
 .filter-range
 {
     margin: 0;
-    padding: 0 0 0 11px;
+    padding: 0 0 0 10px;
 
     border: 0;
 }
@@ -1610,7 +1608,7 @@ a
 
 .filter-price-scale
 {
-    height: 2px;
+    height: 1px;
 
     background-color: rgba(255, 255, 255, .3);
 }
