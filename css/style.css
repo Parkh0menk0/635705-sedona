@@ -974,6 +974,7 @@ a
     display: block;
 
     margin-right: 6px;
+    padding-bottom: 2px;
 
     color: rgb(0, 0, 0);
 }
@@ -990,6 +991,9 @@ a
 {
     width: 115px;
     height: 41px;
+
+    padding-bottom: 3px;
+    padding-left: 3px;
 
     fill: rgb(35, 31, 32);
 }
