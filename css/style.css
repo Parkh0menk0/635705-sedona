@@ -1255,6 +1255,8 @@ a
     list-style: none;
 
     color: rgb(0, 0, 0);
+
+    flex-wrap: wrap;
 }
 
 .caption-query-result-list-title
