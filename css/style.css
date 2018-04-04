@@ -1077,13 +1077,12 @@ a
     fill: rgb(35, 31, 32);
 }
 
-.footer-copyright-logo:hover,
-.footer-copyright-logo-link:focus .footer-copyright-logo
+.footer-copyright-logo:hover
 {
     fill: rgb(129, 179, 210);
 }
 
-.footer-copyright-logo:active
+.footer-copyright-logo-link:active .footer-copyright-logo 
 {
     fill: rgb(189, 187, 188);
 }
