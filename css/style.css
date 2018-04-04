@@ -685,16 +685,7 @@ a
     background-color: rgb(242, 242, 242);
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: rgb(0, 0, 0);
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: rgb(0, 0, 0);
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: rgb(0, 0, 0);
-}
-:-moz-placeholder { /* Firefox 18- */
+.order-form-row input::placeholder {
   color: rgb(0, 0, 0);
 }
 
