@@ -237,7 +237,6 @@ a
     height: inherit;
 
     -webkit-transform: translateY(-50%);
-
             transform: translateY(-50%);
 }
 
@@ -507,6 +506,7 @@ a
 {
     position: absolute;
     z-index: 1;
+    z-index: 1;
     top: 100%;
     right: 0;
     left: 0;
@@ -515,79 +515,96 @@ a
 
     background-color: rgb(255, 255, 255);
     box-shadow: 0 10px 20px rgba(0, 1, 1, .2);
-    z-index: 1;
 }
 
-.order-form-hide {
+.order-form-hide
+{
     display: block;
-  -webkit-animation: formhide 1s forwards;
-          animation: formhide 1s forwards;
+
+    -webkit-animation: formhide 1s forwards;
+            animation: formhide 1s forwards;
 }
 
-.order-form-show {
+.order-form-show
+{
     display: block;
-  -webkit-animation: formshow 1s forwards;
-          animation: formshow 1s forwards;
+
+    -webkit-animation: formshow 1s forwards;
+            animation: formshow 1s forwards;
 }
 
-@-webkit-keyframes formshow {
-  0% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-    opacity: 0;
-  }
+@-webkit-keyframes formshow
+{
+    0%
+    {
+        -webkit-transform: translateY(-100%);
+                transform: translateY(-100%);
 
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-  }
+        opacity: 0;
+    }
+
+    100%
+    {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+
+        opacity: 1;
+    }
 }
 
-@keyframes formshow {
-  0% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-    opacity: 0;
-  }
+@keyframes formshow
+{
+    0%
+    {
+        -webkit-transform: translateY(-100%);
+                transform: translateY(-100%);
 
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-  }
+        opacity: 0;
+    }
+
+    100%
+    {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+
+        opacity: 1;
+    }
 }
 
-@-webkit-keyframes formhide {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
+@-webkit-keyframes formhide
+{
+    0%
+    {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
 
-  100% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    -webkit-transform-origin: top;
-            transform-origin: top;
-  }
+    100%
+    {
+        -webkit-transform: translateY(-100%);
+                transform: translateY(-100%);
+        -webkit-transform-origin: top;
+                transform-origin: top;
+        box-shadow: none;
+    }
 }
 
-@keyframes formhide {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
+@keyframes formhide
+{
+    0%
+    {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
 
-  100% {
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    -webkit-transform-origin: top;
-            transform-origin: top;
-  }
+    100%
+    {
+        -webkit-transform: translateY(-100%);
+                transform: translateY(-100%);
+        -webkit-transform-origin: top;
+                transform-origin: top;
+        box-shadow: none;
+    }
 }
 
 .order-form-error
@@ -705,8 +722,24 @@ a
     background-color: rgb(242, 242, 242);
 }
 
-.order-form-row input::placeholder {
-  color: rgb(0, 0, 0);
+.order-form-row input::-webkit-input-placeholder
+{
+    color: rgb(0, 0, 0);
+}
+
+.order-form-row input:-ms-input-placeholder
+{
+    color: rgb(0, 0, 0);
+}
+
+.order-form-row input::-ms-input-placeholder
+{
+    color: rgb(0, 0, 0);
+}
+
+.order-form-row input::placeholder
+{
+    color: rgb(0, 0, 0);
 }
 
 .order-form-input-wrapper-calendar .order-form-input
@@ -758,9 +791,8 @@ a
     cursor: pointer;
 
     border: none;
-    background-color: transparent;
-
     outline: none;
+    background-color: transparent;
 }
 
 .order-form-calendar-icon
@@ -808,11 +840,10 @@ a
     height: 38px;
 
     border: 0;
+    outline: none;
     background-color: rgb(242, 242, 242);
 
     flex-shrink: 0;
-
-    outline: none;
 }
 
 .order-form-input-control:hover::before,
@@ -1082,7 +1113,7 @@ a
     fill: rgb(129, 179, 210);
 }
 
-.footer-copyright-logo-link:active .footer-copyright-logo 
+.footer-copyright-logo-link:active .footer-copyright-logo
 {
     fill: rgb(189, 187, 188);
 }
@@ -1164,7 +1195,6 @@ a
     border: 0;
 
     -webkit-clip-path: inset(100%);
-
             clip-path: inset(100%);
 }
 
