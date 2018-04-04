@@ -515,64 +515,85 @@ a
 
     background-color: rgb(255, 255, 255);
     box-shadow: 0 10px 20px rgba(0, 1, 1, .2);
+    z-index: 1;
 }
 
-.order-form-hide
-{
-    display: none;
-}
-
-.order-form-show
-{
+.order-form-hide {
     display: block;
+  -webkit-animation: formhide 1s forwards;
+          animation: formhide 1s forwards;
+}
 
-    -webkit-animation: bounce 1s;
+.order-form-show {
+    display: block;
+  -webkit-animation: formshow 1s forwards;
+          animation: formshow 1s forwards;
+}
 
-            animation: bounce 1s;
+@-webkit-keyframes formshow {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes formshow {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes formhide {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
+}
+
+@keyframes formhide {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-transform-origin: top;
+            transform-origin: top;
+  }
 }
 
 .order-form-error
 {
     -webkit-animation: shake .5s;
             animation: shake .5s;
-}
-
-@-webkit-keyframes bounce
-{
-    0%
-    {
-        -webkit-transform: translateY(0);
-                transform: translateY(-100%);
-
-        opacity: 0;
-    }
-
-    100%
-    {
-        -webkit-transform: translateY(0);
-                transform: translateY(0);
-
-        opacity: 1;
-    }
-}
-
-@keyframes bounce
-{
-    0%
-    {
-        -webkit-transform: translateY(0);
-                transform: translateY(-100%);
-
-        opacity: 0;
-    }
-
-    100%
-    {
-        -webkit-transform: translateY(0);
-                transform: translateY(0);
-
-        opacity: 1;
-    }
 }
 
 @-webkit-keyframes shake
@@ -738,6 +759,8 @@ a
 
     border: none;
     background-color: transparent;
+
+    outline: none;
 }
 
 .order-form-calendar-icon
@@ -788,6 +811,8 @@ a
     background-color: rgb(242, 242, 242);
 
     flex-shrink: 0;
+
+    outline: none;
 }
 
 .order-form-input-control:hover::before,
