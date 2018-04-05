@@ -1,33 +1,33 @@
 var orderButton = document.querySelector(".btn-action");
 var pullDownMenu = document.querySelector("form");
-var inn = pullDownMenu.querySelector("[name=check-in]");
-var out = pullDownMenu.querySelector("[name=check-out]");
+var checkIn = pullDownMenu.querySelector("[name=check-in]");
+var checkOut = pullDownMenu.querySelector("[name=check-out]");
 var adults = pullDownMenu.querySelector("[name=adults]");
 var kids = pullDownMenu.querySelector("[name=kids]");
-var storage = localStorage.getItem("inn");
+var storage = localStorage.getItem("checkIn");
 
 pullDownMenu.classList.add("order-form-hide");
 
 orderButton.addEventListener("click", function(evt) {
   evt.preventDefault();
   pullDownMenu.classList.toggle("order-form-show");
-  inn.focus();
+  checkIn.focus();
   if (storage) {
-    inn.value = storage;
-    out.focus();
+    checkIn.value = storage;
+    checkOut.focus();
   } else {
-    inn.focus();
+    checkIn.focus();
   }
 });
 
 pullDownMenu.addEventListener("submit", function(evt) {
-  if ((!inn.value) || (!out.value)) {
+  if ((!checkIn.value) || (!checkOut.value)) {
     evt.preventDefault();
     pullDownMenu.classList.remove("order-form-error");
     pullDownMenu.offsetWidth = pullDownMenu.offsetWidth;
     pullDownMenu.classList.add("order-form-error");
   } else {
-    localStorage.setItem("inn", inn.value);
+    localStorage.setItem("checkIn", checkIn.value);
   }
 });
 
