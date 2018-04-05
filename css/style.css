@@ -12,13 +12,13 @@ html
 
 body
 {
+    margin: 0;
+    padding: 0;
+
     font-family: 'PT Sans', Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-
-    margin: 0;
-    padding: 0;
 
     text-transform: uppercase;
 
@@ -585,6 +585,7 @@ a
                 transform: translateY(-100%);
         -webkit-transform-origin: top;
                 transform-origin: top;
+
         box-shadow: none;
     }
 }
@@ -603,6 +604,7 @@ a
                 transform: translateY(-100%);
         -webkit-transform-origin: top;
                 transform-origin: top;
+
         box-shadow: none;
     }
 }
